@@ -1,4 +1,15 @@
-export const projectDatabase = [
+interface Project {
+    name: string,
+    link: string,
+    image: string,
+    color: string,
+    tags: Array<string>,
+    description: string,
+    content: string,
+    readmore?: string,
+}
+
+export const projectDatabase: Array<Project> = [
     {
         name: 'JollyWorld',
         link: 'https://poki.com/en/g/jollyworld',
