@@ -8,8 +8,8 @@
 		<span style="--offset: -4s">A</span>
 		<span style="--offset: -3.6s">R</span>
 		<span style="--offset: -3.2s">D</span>
-		<br id="break">
-		<span style="--offset: -2.8s; margin-left: 20px;"></span>
+		<div id="break"/>
+		<span style="--offset: -2.8s;"></span>
 		<span style="--offset: -2.4s">T</span>
 		<span style="--offset: -2s">I</span>
 		<span style="--offset: -1.6s">S</span>
@@ -56,7 +56,8 @@ span {
 	}
 }
 #break {
-	display: none;
+	display: inline-block;
+	width: 20px;
 }
 @media screen and (max-width: 920px) {
 	#break {
