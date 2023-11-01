@@ -30,7 +30,7 @@ export default {
 	top: 0;
 	width: 100%;
 	border-bottom: 2px solid white;	
-	background-image: url(../assets/imgs/noise.webp), radial-gradient(ellipse at 50% 100%, var(--main-text-alpha), transparent 70%);
+	background-image: url(../assets/imgs/blur.png), radial-gradient(ellipse at 50% 100%, var(--main-text-alpha), transparent 70%);
 	-webkit-mask-image: radial-gradient(ellipse at 50% 100%,rgba(0,0,0,.5),transparent 70%);
 }
 </style>
