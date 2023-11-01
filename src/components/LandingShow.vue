@@ -27,7 +27,7 @@ export default {
 	position: relative;
 	justify-content: center;
 	display: flex;
-	padding-block: 15vw;
+	padding-block: min(200px, 15vw);
 	padding-inline: 40px;
 }
 #leonhard {
@@ -36,6 +36,8 @@ export default {
 	height: 20vw;
 	border-radius: 30%;
 	margin-right: 20px;
+	max-width: 300px;
+	max-height: 300px;
 }
 #bg {
 	height: 100%;
@@ -48,6 +50,11 @@ export default {
 	background-image: url(../assets/imgs/grid.webp), radial-gradient(ellipse at 75% 25%, var(--main-hot-alpha), transparent 70%);
 	-webkit-mask-image: radial-gradient(ellipse at 30% 70%,rgba(0,0,0,.5),transparent 70%);
 }
+#intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
 h1 {
 	font-size: 72px;
 	font-family: Nabla;
@@ -57,6 +64,7 @@ h1 {
 }
 p {
 	font-size: 24px;
+	margin: 0;
 }
 span {
 	color: var(--main-hot);
