@@ -2,7 +2,7 @@
 	<div id="landingshow">
 		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.png">
 		<div id="intro">
-			<h1>Leonhard Tissen</h1>
+			<ColorTitle/>
 			<p>Professional <span>web developer</span> with 7 years of experience</p>
 		</div>
 		<div id="bg">
@@ -12,17 +12,18 @@
 </template>
   
 <script>
+import ColorTitle from './ColorTitle.vue';
+
 export default {
-	name: 'LandingShow'
+    name: 'LandingShow',
+    components: {
+		ColorTitle
+	}
 }
 </script>
 	
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@font-face {
-	font-family: Nabla;
-	src: url(../assets/fonts/Nabla-stripped.ttf);
-}
 #landingshow {
 	position: relative;
 	justify-content: center;
@@ -54,13 +55,6 @@ export default {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-}
-h1 {
-	font-size: 72px;
-	font-family: Nabla;
-	text-transform: uppercase;
-	filter: hue-rotate(90deg);
-	margin: 0;
 }
 p {
 	font-size: 24px;
