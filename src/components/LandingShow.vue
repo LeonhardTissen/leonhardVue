@@ -1,6 +1,6 @@
 <template>
 	<div id="landingshow">
-		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.png">
+		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.jpg">
 		<div id="intro">
 			<ColorTitle/>
 			<p>Professional <span>web developer</span> with 7 years of experience</p>
