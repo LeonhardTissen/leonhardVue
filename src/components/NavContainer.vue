@@ -1,7 +1,7 @@
 <template>
 	<div class="navcontainer">
 		<NavItem name="Main" url="main"/>
-		<NavItem name="About" url="about"/>
+		<NavItem name="Goals" url="goals"/>
 		<NavItem name="Projects" url="projects"/>
 		<NavItem name="Experiece" url="experience"/>
 		<NavItem name="Contact" url="contact"/>

@@ -21,7 +21,7 @@
   
 <script>
 export default {
-	name: 'AboutMe',
+	name: 'MyGoals',
 	props: {}
 }
 </script>
@@ -31,7 +31,7 @@ export default {
 	#aboutme {
 		padding: 100px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 	}
 	#textsection {

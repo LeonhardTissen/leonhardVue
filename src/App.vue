@@ -3,11 +3,11 @@
 	<div class="page selected" id="main">
 		<LandingShow/>
 	</div>
-	<div class="page selected" id="about">
-		<AboutMe/>
+	<div class="page selected" id="goals">
+		<MyGoals/>
 	</div>
 	<div class="page selected" id="projects">
-		
+
 	</div>
 	<div class="page selected" id="experience">
 
@@ -22,14 +22,14 @@
 import HeaderContainer from './components/HeaderContainer.vue'
 import FooterContainer from './components/FooterContainer.vue'
 import LandingShow from './components/LandingShow.vue';
-import AboutMe from './components/AboutMe.vue';
+import MyGoals from './components/MyGoals.vue';
 
 export default {
 	name: 'App',
 	components: {
 		HeaderContainer,
 		LandingShow,
-		AboutMe,
+		MyGoals,
 		FooterContainer
 	}
 }
