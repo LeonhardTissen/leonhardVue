@@ -18,7 +18,7 @@
 	<FooterContainer/>
 </template>
 
-<script>
+<script lang="ts">
 import HeaderContainer from './components/HeaderContainer.vue'
 import FooterContainer from './components/FooterContainer.vue'
 import LandingShow from './components/LandingShow.vue';

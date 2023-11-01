@@ -2,7 +2,7 @@
 	<a class="navitem" :id="'nav' + url" :href="'#' + url" @click="handleClick">{{ name }}</a>
 </template>
   
-<script>
+<script lang="ts">
 import { goTo } from '../dom';
 
 export default {
@@ -12,8 +12,16 @@ export default {
 		url: String
 	},
 	methods: {
-        handleClick(ev) {
-			goTo(ev.target.getAttribute('href').replace('#', ''));
+        handleClick(ev: MouseEvent) {
+			const targetElement = ev.target as HTMLElement;
+
+			if (targetElement === null) return;
+
+			const targetHref = targetElement.getAttribute('href');
+
+			if (targetHref === null) return;
+
+			goTo(targetHref.replace('#', ''));
         }
     }
 }

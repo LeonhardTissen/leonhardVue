@@ -4,7 +4,7 @@
 	</a>
 </template>
   
-<script>
+<script lang="ts">
 export default {
 	props: {
 		icon: String, // The source of the social icon image

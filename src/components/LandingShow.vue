@@ -19,7 +19,7 @@
 	</div>
 </template>
   
-<script>
+<script lang="ts">
 import ColorTitle from './ColorTitle.vue';
 import SocialIcon from './SocialIcon.vue';
 

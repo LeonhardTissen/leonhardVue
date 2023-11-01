@@ -8,7 +8,7 @@
 	</div>
 </template>
   
-<script>
+<script lang="ts">
 import NavItem from './NavItem.vue';
 
 export default {
