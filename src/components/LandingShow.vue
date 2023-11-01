@@ -3,27 +3,16 @@
 		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.jpg">
 		<div id="intro">
 			<ColorTitle/>
+
 			<p>Professional <span>web developer</span> with 7 years of experience</p>
 
 			<div id="socialicons">
-				<a class="social" href="https://github.com/WarzeEgg">
-					<img class="socialicon" src="../assets/imgs/icons/github.svg" alt="GitHub">
-				</a>
-				<a class="social" href="https://gitlab.com/WarzeEgg">
-					<img class="socialicon" src="../assets/imgs/icons/gitlab.svg" alt="GitHub">
-				</a>
-				<a class="social" href="https://www.linkedin.com/in/leonhard-tissen/">
-					<img class="socialicon" src="../assets/imgs/icons/linkedin.svg" alt="LinkedIn">
-				</a>
-				<a class="social" href="https://twitter.com/leonhard_tissen">
-					<img class="socialicon" src="../assets/imgs/icons/x.svg" alt="X">
-				</a>
-				<a class="social" href="https://warze.org">
-					<img class="socialicon" src="../assets/imgs/icons/website.svg" alt="Warze.org">
-				</a>
-				<a class="social" href="mailto:contact@warze.org">
-					<img class="socialicon" src="../assets/imgs/icons/email.svg" alt="E-mail">
-				</a>
+				<SocialIcon icon="github" alt="GitHub" url="//github.com/WarzeEgg"/>
+				<SocialIcon icon="gitlab" alt="GitLab" url="//gitlab.com/WarzeEgg"/>
+				<SocialIcon icon="linkedin" alt="LinkedIn" url="//www.linkedin.com/in/leonhard-tissen/"/>
+				<SocialIcon icon="x" alt="Twitter / X" url="//twitter.com/leonhard_tissen"/>
+				<SocialIcon icon="website" alt="Warze.org" url="//warze.org"/>
+				<SocialIcon icon="email" alt="E-mail" url="mailto:contact@warze.org"/>
 			</div>
 		</div>
 		<div id="bg"></div>
@@ -32,12 +21,14 @@
   
 <script>
 import ColorTitle from './ColorTitle.vue';
+import SocialIcon from './SocialIcon.vue';
 
 export default {
     name: 'LandingShow',
     components: {
-    ColorTitle
-}
+		ColorTitle,
+		SocialIcon
+	}
 }
 </script>
 	
