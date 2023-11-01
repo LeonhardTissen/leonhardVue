@@ -186,4 +186,4 @@ export const projectDatabase: Array<Project> = [
         Users can customize various aspects of games such as cards, colors and chips.
         `
     }
-]
+];
