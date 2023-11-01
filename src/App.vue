@@ -1,18 +1,17 @@
 <template>
-	<HeaderContainer></HeaderContainer>
-	<img alt="Vue logo" src="./assets/logo.png">
-	<HelloWorld msg="Welcome to Your Vue.js App"/>
+	<HeaderContainer/>
+	<LandingShow/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import HeaderContainer from './components/HeaderContainer.vue'
+import LandingShow from './components/LandingShow.vue';
 
 export default {
 	name: 'App',
 	components: {
-		HelloWorld,
-		HeaderContainer
+		HeaderContainer,
+		LandingShow
 	}
 }
 </script>
@@ -25,7 +24,9 @@ export default {
 :root {
 	--main: #000000;
 	--main-text: #EFE8EE;
+	--main-text-alpha: #EFE8EE40;
 	--main-hot: #65F8B0;
+	--main-hot-alpha: #65F8B040;
 }
 body {
 	color: var(--main-text);
@@ -36,6 +37,5 @@ body {
 	font-family: Geist, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
 }
 </style>
