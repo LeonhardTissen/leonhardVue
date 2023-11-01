@@ -1,5 +1,5 @@
 <template>
-	<a class="navitem" :href="url">{{ name }}</a>
+	<a class="navitem" :href="url" @click="handleClick">{{ name }}</a>
 </template>
   
 <script>
@@ -8,21 +8,30 @@ export default {
 	props: {
 		name: String,
 		url: String
-	}
+	},
+	methods: {
+        handleClick(ev) {
+			document.querySelectorAll('.navitem.selected').forEach((element) => {
+				element.classList.remove('selected');
+			});
+
+			ev.target.classList.add('selected');
+        }
+    }
 }
 </script>
 	
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	a {
+	.navitem {
 		font-size: 24px;
 		cursor: pointer;
 		color: var(--main-text);
-		transition: color 0.2s ease-out;
+		transition: color 0.2s ease-out, transform 0.1s ease-out;
 		text-decoration: none;
 		position: relative;
 	}
-	a::after {
+	.navitem::after {
 		content: '';
 		position: absolute;
 		background-color: var(--main-text);
@@ -34,12 +43,17 @@ export default {
 		transition: width 0.3s ease-in-out, color 0.2s ease-out;
 		border-radius: 2px;
 	}
-	a:hover {
+	.navitem:hover {
 		color: var(--main-hot);
 	}
-	a:hover::after {
+	.navitem:hover::after {
 		width: 100%;
 		background-color: var(--main-hot);
+	}
+	.navitem.selected {
+		color: var(--main-hot);
+		pointer-events: none;
+		transform: translateY(-4px);
 	}
 </style>
   
