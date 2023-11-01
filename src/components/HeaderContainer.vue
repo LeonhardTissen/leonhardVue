@@ -21,6 +21,7 @@ export default {
 .header {
 	height: 100px;
 	margin-inline: 30px;
+	position: relative;
 }
 .headerbg {
 	height: 100px;

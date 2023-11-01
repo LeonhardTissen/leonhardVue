@@ -3,29 +3,34 @@
 	<div class="page selected" id="main">
 		<LandingShow/>
 	</div>
-	<div class="page" id="about">
+	<div class="page selected" id="about">
+		<AboutMe/>
+	</div>
+	<div class="page selected" id="projects">
+		
+	</div>
+	<div class="page selected" id="experience">
 
 	</div>
-	<div class="page" id="projects">
+	<div class="page selected" id="contact">
 
 	</div>
-	<div class="page" id="experience">
-
-	</div>
-	<div class="page" id="contact">
-
-	</div>
+	<FooterContainer/>
 </template>
 
 <script>
 import HeaderContainer from './components/HeaderContainer.vue'
+import FooterContainer from './components/FooterContainer.vue'
 import LandingShow from './components/LandingShow.vue';
+import AboutMe from './components/AboutMe.vue';
 
 export default {
 	name: 'App',
 	components: {
 		HeaderContainer,
-		LandingShow
+		LandingShow,
+		AboutMe,
+		FooterContainer
 	}
 }
 </script>

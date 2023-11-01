@@ -1,5 +1,5 @@
 <template>
-	<a class="navitem" :id="url" :href="'#' + url" @click="handleClick">{{ name }}</a>
+	<a class="navitem" :id="'nav' + url" :href="'#' + url" @click="handleClick">{{ name }}</a>
 </template>
   
 <script>
