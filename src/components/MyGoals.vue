@@ -52,7 +52,8 @@ export default {
 		aspect-ratio: 1/1;
 		background-image: url(../assets/imgs/space.svg);
 		background-repeat: repeat;
-		animation: 12s space infinite linear reverse;
+		background-size: 500%;
+		animation: 1000s space infinite linear reverse;
 		border-radius: 50%;
 		border: 3px solid var(--main-text);
 		position: relative;
@@ -61,10 +62,10 @@ export default {
 	}
 	@keyframes space {
 		from {
-			background-position-x: 0px;
+			background-position-x: 0%;
 		}
 		to {
-			background-position-x: 2000px;
+			background-position-x: 200000px;
 		}
 	}
 	#alien {
@@ -73,10 +74,10 @@ export default {
 	}
 	@keyframes alien {
 		from {
-			transform: translateY(20px) rotateZ(10deg);
+			transform: translateY(20%) rotateZ(10deg);
 		}
 		to {
-			transform: translateY(-20px) rotateZ(5deg);
+			transform: translateY(-20%) rotateZ(5deg);
 		}
 	}
 </style>
