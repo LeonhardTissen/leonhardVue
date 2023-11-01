@@ -1,15 +1,14 @@
 <template>
-	<HeaderContainer/>
-	<router-view></router-view>
+	<LandingShow/>
 </template>
 
 <script>
-import HeaderContainer from './components/HeaderContainer.vue'
+import LandingShow from './components/LandingShow.vue';
 
 export default {
 	name: 'App',
 	components: {
-		HeaderContainer,
+		LandingShow
 	}
 }
 </script>

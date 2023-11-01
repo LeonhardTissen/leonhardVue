@@ -1,10 +1,10 @@
 <template>
 	<div class="navcontainer">
-		<NavItem name="Main" url="#"/>
-		<NavItem name="About" url="#about"/>
-		<NavItem name="Projects" url="#projects"/>
-		<NavItem name="Experiece" url="#experience"/>
-		<NavItem name="Contact" url="#contact"/>
+		<NavItem name="Main" url="/"/>
+		<NavItem name="About" url="/about"/>
+		<NavItem name="Projects" url="/projects"/>
+		<NavItem name="Experiece" url="/experience"/>
+		<NavItem name="Contact" url="/contact"/>
 	</div>
 </template>
   

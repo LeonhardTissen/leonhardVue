@@ -1,15 +1,12 @@
 <template>
-	<HeaderContainer/>
-	<router-view></router-view>
+	<div></div>
 </template>
 
 <script>
-import HeaderContainer from './components/HeaderContainer.vue'
-
 export default {
 	name: 'App',
 	components: {
-		HeaderContainer,
+
 	}
 }
 </script>
