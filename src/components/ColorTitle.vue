@@ -21,10 +21,7 @@
   
 <script lang="ts">
 export default {
-	name: 'ColorTitle',
-	props: {
-		msg: String
-	}
+	name: 'ColorTitle'
 }
 </script>
 	

@@ -22,7 +22,6 @@
 <script lang="ts">
 export default {
 	name: 'MyGoals',
-	props: {}
 }
 </script>
 	
