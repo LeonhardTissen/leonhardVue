@@ -1,8 +1,10 @@
 <template>
-	<a class="navitem" :href="url" @click="handleClick">{{ name }}</a>
+	<a class="navitem" :id="url" :href="'#' + url" @click="handleClick">{{ name }}</a>
 </template>
   
 <script>
+import { goTo } from '../dom';
+
 export default {
 	name: 'NavItem',
 	props: {
@@ -11,11 +13,7 @@ export default {
 	},
 	methods: {
         handleClick(ev) {
-			document.querySelectorAll('.navitem.selected').forEach((element) => {
-				element.classList.remove('selected');
-			});
-
-			ev.target.classList.add('selected');
+			goTo(ev.target.getAttribute('href').replace('#', ''));
         }
     }
 }

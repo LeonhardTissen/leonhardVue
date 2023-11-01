@@ -1,6 +1,20 @@
 <template>
 	<HeaderContainer/>
-	<LandingShow/>
+	<div class="page selected" id="main">
+		<LandingShow/>
+	</div>
+	<div class="page" id="about">
+
+	</div>
+	<div class="page" id="projects">
+
+	</div>
+	<div class="page" id="experience">
+
+	</div>
+	<div class="page" id="contact">
+
+	</div>
 </template>
 
 <script>
@@ -37,5 +51,11 @@ body {
 	font-family: Geist, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+.page {
+	display: none;
+}
+.page.selected {
+	display: block;
 }
 </style>
