@@ -1,5 +1,5 @@
 <template>
-	<div id="aboutme">
+	<div id="mygoals">
 		<div id="textsection">
 			<h1>Unleashing creativity on the web</h1>
 			<p>
@@ -28,7 +28,7 @@ export default {
 	
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	#aboutme {
+	#mygoals {
 		padding: 100px;
 		display: flex;
 		justify-content: space-around;
@@ -78,6 +78,11 @@ export default {
 		}
 		to {
 			transform: translateY(-20%) rotateZ(5deg);
+		}
+	}
+	@media screen and (max-width: 700px) {
+		#mygoals {
+			flex-direction: column;
 		}
 	}
 </style>
