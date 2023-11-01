@@ -4,10 +4,29 @@
 		<div id="intro">
 			<ColorTitle/>
 			<p>Professional <span>web developer</span> with 7 years of experience</p>
-		</div>
-		<div id="bg">
 
+			<div id="socialicons">
+				<a class="social" href="https://github.com/WarzeEgg">
+					<img class="socialicon" src="../assets/imgs/icons/github.svg" alt="GitHub">
+				</a>
+				<a class="social" href="https://gitlab.com/WarzeEgg">
+					<img class="socialicon" src="../assets/imgs/icons/gitlab.svg" alt="GitHub">
+				</a>
+				<a class="social" href="https://www.linkedin.com/in/leonhard-tissen/">
+					<img class="socialicon" src="../assets/imgs/icons/linkedin.svg" alt="LinkedIn">
+				</a>
+				<a class="social" href="https://twitter.com/leonhard_tissen">
+					<img class="socialicon" src="../assets/imgs/icons/x.svg" alt="X">
+				</a>
+				<a class="social" href="https://warze.org">
+					<img class="socialicon" src="../assets/imgs/icons/website.svg" alt="Warze.org">
+				</a>
+				<a class="social" href="mailto:contact@warze.org">
+					<img class="socialicon" src="../assets/imgs/icons/email.svg" alt="E-mail">
+				</a>
+			</div>
 		</div>
+		<div id="bg"></div>
 	</div>
 </template>
   
@@ -17,8 +36,8 @@ import ColorTitle from './ColorTitle.vue';
 export default {
     name: 'LandingShow',
     components: {
-		ColorTitle
-	}
+    ColorTitle
+}
 }
 </script>
 	
@@ -62,6 +81,19 @@ p {
 }
 span {
 	color: var(--main-hot);
+}
+#socialicons {
+	display: flex;
+	gap: 16px;
+	margin-block: 4px;
+}
+.socialicon {
+	width: 40px;
+	transition: filter 0.1s linear, transform 0.12s ease-out;
+}
+.socialicon:hover {
+	filter: sepia(1) saturate(10) hue-rotate(60deg);
+	transform: scale(1.2);
 }
 </style>
   
