@@ -59,7 +59,7 @@ export default {
 	width: 100%;
 	z-index: -1;
 	background-image: url(../assets/imgs/grid.webp), radial-gradient(ellipse at 75% 25%, var(--main-hot-alpha), transparent 70%);
-	-webkit-mask-image: radial-gradient(ellipse at 30% 70%,rgba(0,0,0,.5),transparent 70%);
+	mask-image: radial-gradient(ellipse at 30% 70%,rgba(0,0,0,.5),transparent 70%);
 }
 #intro {
 	display: flex;

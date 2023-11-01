@@ -30,7 +30,7 @@ export default {
 	width: 100%;
 	border-top: 2px solid white;	
 	background-image: url(../assets/imgs/blur.png), radial-gradient(ellipse at 50% 0%, var(--main-text-alpha), transparent 70%);
-	-webkit-mask-image: radial-gradient(ellipse at 50% 0%,rgba(0,0,0,.5),transparent 70%);
+	mask-image: radial-gradient(ellipse at 50% 0%,rgba(0,0,0,.5),transparent 70%);
 }
 h1 {
 	margin: 0;
