@@ -9,8 +9,8 @@ export function goTo(page_id) {
 
 window.onload = () => {
 	const hash = window.location.hash;
-	if (['#main','#',''].includes(hash)) {
-		document.getElementById('navmain').classList.add('selected');
+	if (['#home','#',''].includes(hash)) {
+		document.getElementById('navhome').classList.add('selected');
 		return;
 	}
 	goTo(hash.replace('#', ''));

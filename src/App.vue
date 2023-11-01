@@ -1,6 +1,6 @@
 <template>
 	<HeaderContainer/>
-	<div class="page selected" id="main">
+	<div class="page selected" id="home">
 		<LandingShow/>
 	</div>
 	<div class="page selected" id="goals">
