@@ -2,7 +2,7 @@
 	<div id="myprojects">
 		<div v-for="(project, index) in projectDatabase" class="project" :key="index">
 			<a class="name" :href="project.link" target="_blank">
-				<img class="banner" :src="'/works/' + project.image" :alt="project.name">
+				<img class="banner" :src="'/works/' + project.image" :alt="project.name" loading="lazy">
 				{{ project.name }}
 			</a>
 			<p class="description">{{ project.description }}</p>
