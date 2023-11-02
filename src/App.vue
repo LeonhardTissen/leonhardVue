@@ -7,7 +7,7 @@
 		<MyGoals/>
 	</div>
 	<div class="page selected" id="projects">
-
+		<MyProjects/>
 	</div>
 	<div class="page selected" id="experience">
 
@@ -23,6 +23,7 @@ import HeaderContainer from './components/HeaderContainer.vue'
 import FooterContainer from './components/FooterContainer.vue'
 import LandingShow from './components/LandingShow.vue';
 import MyGoals from './components/MyGoals.vue';
+import MyProjects from './components/MyProjects.vue';
 
 export default {
 	name: 'App',
@@ -30,7 +31,8 @@ export default {
 		HeaderContainer,
 		LandingShow,
 		MyGoals,
-		FooterContainer
+		MyProjects,
+		FooterContainer,
 	}
 }
 </script>
@@ -62,5 +64,8 @@ body {
 }
 .page.selected {
 	display: block;
+}
+a {
+	color: var(--main-hot);
 }
 </style>
