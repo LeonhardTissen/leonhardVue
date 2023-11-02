@@ -40,5 +40,13 @@ a {
 img {
 	height: 200px;
 }
+@media screen and (max-width: 640px) {
+	#contactme {
+		flex-direction: column-reverse;
+	}
+	img {
+		max-width: 70vw;
+	}
+}
 </style>
   

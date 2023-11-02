@@ -56,5 +56,10 @@ p {
 	right: 0;
 	padding: 20px;
 }
+@media screen and (max-width: 640px) {
+	.footer {
+		padding: 20px;
+	}
+}
 </style>
   
