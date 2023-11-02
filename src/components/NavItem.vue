@@ -66,6 +66,9 @@ export default {
 			content: '· ';
 			margin-left: 20px;
 		}
+		.navitem.selected {
+			transform: translateX(6px);
+		}
 	}
 </style>
   
