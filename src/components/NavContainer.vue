@@ -3,7 +3,6 @@
 		<NavItem name="Home" url="home"/>
 		<NavItem name="Goals" url="goals"/>
 		<NavItem name="Projects" url="projects"/>
-		<NavItem name="Experiece" url="experience"/>
 		<NavItem name="Contact" url="contact"/>
 	</div>
 </template>

@@ -9,9 +9,6 @@
 	<div class="page selected" id="projects">
 		<MyProjects/>
 	</div>
-	<div class="page selected" id="experience">
-
-	</div>
 	<div class="page selected" id="contact">
 		<ContactMe/>
 	</div>
