@@ -44,6 +44,8 @@ export default {
 		flex-direction: column;
 		align-items: center;
 		gap: 120px;
+		background-image: url(../assets/imgs/hexagon.webp);
+		background-size: 400px;
 	}
 	.project {
 		border: 2px solid var(--main-text);
@@ -52,6 +54,7 @@ export default {
 		padding: 20px;
 		position: relative;
 		max-width: 640px;
+		backdrop-filter: blur(3px);
 	}
 	.bg {
 		position: absolute;
@@ -140,7 +143,7 @@ export default {
 		opacity: 0.6;
 	}
 	.description::before {
-		content: '- ';
+		content: '➤ ';
 	}
 </style>
   

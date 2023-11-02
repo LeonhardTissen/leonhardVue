@@ -16,7 +16,7 @@ export const projectDatabase: Array<Project> = [
         image: 'jollyworld.png',
         color: '#A1EFF1',
         tags: ['Featured', 'Web Design', 'Game Design', 'Level Design', 'Backend Development', 'Server Management'],
-        description: 'A sandbox ragdoll game with extensive customization and level editor.',
+        description: 'The sandbox ragdoll game with extensive customization and level editor.',
         content: `
             <h3>Playable Characters</h3>
             I created the <a href="https://jollyworld.app/mod">character selection page</a> along with the character customization built on the modding system.
@@ -43,7 +43,7 @@ export const projectDatabase: Array<Project> = [
         image: 'jellyventure.png',
         color: '#33FF00',
         tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design'],
-        description: 'A fun platforming game in collaboration with the YouTuber Jelly.',
+        description: 'The fun platforming game in collaboration with the YouTuber Jelly.',
         content: `
             <h3>Level Design</h3>
             I built all 25 levels in the game. Jump from a friendly outdoor environment into a mighty lava-filled city or a
@@ -62,7 +62,7 @@ export const projectDatabase: Array<Project> = [
         image: 'doomed.png',
         color: '#DC7030',
         tags: ['Featured', 'Graphic Design', 'Game Design', 'Web Design', 'Backend Development'],
-        description: 'An online multiplayer game about gathering resources and building bases.',
+        description: 'The online multiplayer game about gathering resources and building bases.',
         content: `
             The game was left without updates for many years, and with an established community that has brought some
             challenges. My goal was to improve the playing experience overall.
@@ -91,7 +91,7 @@ export const projectDatabase: Array<Project> = [
         image: 'kubipets.png',
         color: '#4D88FC',
         tags: ['Featured', 'Graphic Design', 'Game Design'],
-        description: 'An addicting game about unboxing pets and merging them.',
+        description: 'The addicting game about unboxing pets and merging them.',
         readmore: 'Features',
         content: `
             <h3>Unlimited Gameplay</h3>
@@ -114,7 +114,7 @@ export const projectDatabase: Array<Project> = [
         image: 'serpentarioeducativo.png',
         color: '#74B040',
         tags: ['Graphic Design', 'Web Design'],
-        description: 'An argentinian wildlife rescue center dedicated to conservation and environmental education.',
+        description: 'The argentinian wildlife rescue center dedicated to conservation and environmental education.',
         content: `
         <h3>Website</h3>
         I was contacted to build a website for the rescue center who previously only had an online presence of social media
@@ -129,10 +129,10 @@ export const projectDatabase: Array<Project> = [
         color: '#FF2323',
         readmore: 'Features',
         tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management'],
-        description: 'A web-based operating system.',
+        description: 'The web-based operating system.',
         content: `
         <h3>Desktop Experience</h3>
-        A place that simply lists out all my projects would be too boring. Instead I built my own operating system-like
+        The place that simply lists out all my projects would be too boring. Instead I built my own operating system-like
         website where you can open my projects as programs. Clippy will greet you and say a few things about certain projects.
         <a href="https://warze.org/wartos/customize">The desktop is even customizable</a>,
         from the background and colors all the way to the helper and window appearance.
@@ -174,7 +174,7 @@ export const projectDatabase: Array<Project> = [
         color: '#4C41CB',
         readmore: 'Features',
         tags: ['Graphic Design', 'Game Design', 'Backend Development', 'Server Management'],
-        description: 'An open source Discord bot with various games and economy aspects.',
+        description: 'The open source Discord bot with various games and economy aspects.',
         content: `
         <h3>Text-based Games</h3>
         All games can be played within a Discord server. The bot has both singleplayer and multiplayer games with various rewards.
