@@ -28,7 +28,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	#mygoals {
-		padding: 100px;
+		padding: 100px 50px;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -47,7 +47,7 @@ export default {
 	}
 	#animcontainer {
 		display: inline-flex;
-		width: 400px;
+		width: min(80vw, 400px);
 		aspect-ratio: 1/1;
 		background-image: url(../assets/imgs/space.svg);
 		background-repeat: repeat;
