@@ -13,7 +13,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'JollyWorld',
         link: 'https://poki.com/en/g/jollyworld',
-        image: 'jollyworld.png',
+        image: 'jollyworld.jpg',
         color: '#A1EFF1',
         tags: ['Featured', 'Web Design', 'Game Design', 'Level Design', 'Backend Development', 'Server Management'],
         description: 'The sandbox ragdoll game with extensive customization and level editor.',
@@ -40,7 +40,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'Jelly\'s Venture',
         link: 'https://poki.com/en/g/jelly-venture',
-        image: 'jellyventure.png',
+        image: 'jellyventure.jpg',
         color: '#33FF00',
         tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design'],
         description: 'The fun platforming game in collaboration with the YouTuber Jelly.',
@@ -59,7 +59,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'Doomed.io',
         link: 'https://doomed.io',
-        image: 'doomed.png',
+        image: 'doomed.jpg',
         color: '#DC7030',
         tags: ['Featured', 'Graphic Design', 'Game Design', 'Web Design', 'Backend Development'],
         description: 'The online multiplayer game about gathering resources and building bases.',
@@ -88,7 +88,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'Kubi Pets',
         link: 'https://kubipets.netlify.app',
-        image: 'kubipets.png',
+        image: 'kubipets.jpg',
         color: '#4D88FC',
         tags: ['Featured', 'Graphic Design', 'Game Design'],
         description: 'The addicting game about unboxing pets and merging them.',
@@ -111,7 +111,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'Serpentario Educativo',
         link: 'https://serpentarioeducativo.netlify.app/',
-        image: 'serpentarioeducativo.png',
+        image: 'serpentarioeducativo.jpg',
         color: '#74B040',
         tags: ['Graphic Design', 'Web Design'],
         description: 'The argentinian wildlife rescue center dedicated to conservation and environmental education.',
@@ -125,7 +125,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'WartOS',
         link: 'https://warze.org/',
-        image: 'warzeorg.png',
+        image: 'warzeorg.jpg',
         color: '#FF2323',
         readmore: 'Features',
         tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management'],
@@ -144,7 +144,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'Permaplace',
         link: 'https://warze.org/permaplace',
-        image: 'permaplace.png',
+        image: 'permaplace.jpg',
         color: '#B4B7A9',
         readmore: 'Features',
         tags: ['Web Design', 'Backend Development', 'Server Management'],
