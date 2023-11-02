@@ -38,7 +38,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	#myprojects {
-		padding: 100px;
+		padding: 100px 20px;
 		display: flex;
 		justify-content: space-around;
 		flex-direction: column;
@@ -50,7 +50,7 @@ export default {
 	.project {
 		border: 2px solid var(--main-text);
 		border-radius: 8px;
-		margin: calc(5vw - 50px);
+		margin: 20px;
 		padding: 20px;
 		position: relative;
 		max-width: 640px;
