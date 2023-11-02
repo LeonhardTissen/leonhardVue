@@ -58,7 +58,12 @@ span {
 }
 @media screen and (max-width: 920px) {
 	#break {
-		display: blocK;
+		display: block;
+	}
+}
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 54px;
 	}
 }
 </style>

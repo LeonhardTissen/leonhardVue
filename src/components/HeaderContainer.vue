@@ -19,12 +19,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header {
-	height: 100px;
 	margin-inline: 30px;
 	position: relative;
 }
 .headerbg {
-	height: 100px;
+	height: 100%;
 	position: absolute;
 	pointer-events: none;
 	left: 0;

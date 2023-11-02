@@ -61,5 +61,11 @@ export default {
 		pointer-events: none;
 		transform: translateY(-4px);
 	}
+	@media screen and (max-width: 640px) {
+		.navitem::before {
+			content: '· ';
+			margin-left: 20px;
+		}
+	}
 </style>
   

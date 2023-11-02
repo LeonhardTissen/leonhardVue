@@ -66,5 +66,16 @@ p {
 span {
 	color: var(--main-hot);
 }
+@media screen and (max-width: 640px) {
+	#landingshow {
+		flex-direction: column;
+		align-items: center;
+	}
+	#leonhard {
+		width: 60vw;
+		height: 60vw;
+		margin-bottom: 80px;
+	}
+}
 </style>
   

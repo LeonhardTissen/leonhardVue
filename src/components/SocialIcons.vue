@@ -38,5 +38,10 @@ export default {
 	filter: sepia(1) saturate(10) hue-rotate(60deg);
 	transform: scale(1.2);
 }
+@media screen and (max-width: 640px) {
+	#socialicons {
+		gap: 8px;
+	}
+}
 </style>
   

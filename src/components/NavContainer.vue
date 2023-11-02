@@ -27,6 +27,14 @@ export default {
 		justify-content: center;
 		align-items: center;
 		gap: 1vw;
+		padding-block: 20px;
+	}
+	@media screen and (max-width: 640px) {
+		.navcontainer {
+			flex-direction: column;
+			align-items: start;
+			gap: 10px;
+		}
 	}
 </style>
   
