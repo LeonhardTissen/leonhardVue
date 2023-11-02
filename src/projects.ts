@@ -15,7 +15,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://poki.com/en/g/jollyworld',
         image: 'jollyworld.jpg',
         color: '#A1EFF1',
-        tags: ['Featured', 'Web Design', 'Game Design', 'Level Design', 'Backend Development', 'Server Management'],
+        tags: ['Featured', 'Web Design', 'Game Design', 'Level Design', 'Backend Development', 'Server Management', 'Python', 'SQL', 'HTML5', 'SASS', 'PixiJS'],
         description: 'The sandbox ragdoll game with extensive customization and level editor.',
         content: `
             <h3>Playable Characters</h3>
@@ -42,7 +42,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://poki.com/en/g/jelly-venture',
         image: 'jellyventure.jpg',
         color: '#33FF00',
-        tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design'],
+        tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design', 'JavaScript', 'PixiJS', 'Game Development'],
         description: 'The fun platforming game in collaboration with the YouTuber Jelly.',
         content: `
             <h3>Level Design</h3>
@@ -61,7 +61,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://doomed.io',
         image: 'doomed.jpg',
         color: '#DC7030',
-        tags: ['Featured', 'Graphic Design', 'Game Design', 'Web Design', 'Backend Development'],
+        tags: ['Featured', 'Graphic Design', 'Game Design', 'Web Design', 'Backend Development', 'Java', 'TypeScript', 'PostCSS', 'HTML5', 'WebSocket'],
         description: 'The online multiplayer game about gathering resources and building bases.',
         content: `
             The game was left without updates for many years, and with an established community that has brought some
@@ -90,7 +90,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://kubipets.netlify.app',
         image: 'kubipets.jpg',
         color: '#4D88FC',
-        tags: ['Featured', 'Graphic Design', 'Game Design'],
+        tags: ['Featured', 'Graphic Design', 'Game Design', 'ThreeJS', 'CSS', 'JavaScript', 'HowlerJS', 'Python', 'Webpack'],
         description: 'The addicting game about unboxing pets and merging them.',
         readmore: 'Features',
         content: `
@@ -113,7 +113,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://serpentarioeducativo.netlify.app/',
         image: 'serpentarioeducativo.jpg',
         color: '#74B040',
-        tags: ['Graphic Design', 'Web Design'],
+        tags: ['Graphic Design', 'Web Design', 'CSS3', 'JavaScript', 'Python', 'Web Design', 'HTML5'],
         description: 'The argentinian wildlife rescue center dedicated to conservation and environmental education.',
         content: `
         <h3>Website</h3>
@@ -128,7 +128,7 @@ export const projectDatabase: Array<Project> = [
         image: 'warzeorg.jpg',
         color: '#FF2323',
         readmore: 'Features',
-        tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management'],
+        tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management', 'Flask', 'Python', 'Jinja', 'OAuth', 'JavaScript'],
         description: 'The web-based operating system.',
         content: `
         <h3>Desktop Experience</h3>
@@ -147,7 +147,7 @@ export const projectDatabase: Array<Project> = [
         image: 'permaplace.jpg',
         color: '#B4B7A9',
         readmore: 'Features',
-        tags: ['Web Design', 'Backend Development', 'Server Management'],
+        tags: ['Backend Development', 'Server Management', 'SQL', 'Python', 'Jinja', 'HTML5', 'JavaScript', 'CSS', 'Databases', 'r/place'],
         description: 'A place where every pixel lasts a lifetime.',
         content: `
         <h3>Social Experiment</h3>
@@ -173,7 +173,7 @@ export const projectDatabase: Array<Project> = [
         image: 'casinobot.png',
         color: '#4C41CB',
         readmore: 'Features',
-        tags: ['Graphic Design', 'Game Design', 'Backend Development', 'Server Management'],
+        tags: ['Graphic Design', 'Game Design', 'Backend Development', 'Server Management', 'JavaScript', 'NodeJS', 'SQLite'],
         description: 'The open source Discord bot with various games and economy aspects.',
         content: `
         <h3>Text-based Games</h3>

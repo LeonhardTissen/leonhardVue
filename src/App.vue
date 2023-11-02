@@ -13,7 +13,7 @@
 
 	</div>
 	<div class="page selected" id="contact">
-
+		<ContactMe/>
 	</div>
 	<FooterContainer/>
 </template>
@@ -24,6 +24,7 @@ import FooterContainer from './components/FooterContainer.vue'
 import LandingShow from './components/LandingShow.vue';
 import MyGoals from './components/MyGoals.vue';
 import MyProjects from './components/MyProjects.vue';
+import ContactMe from './components/ContactMe.vue';
 
 export default {
 	name: 'App',
@@ -33,6 +34,7 @@ export default {
 		MyGoals,
 		MyProjects,
 		FooterContainer,
+		ContactMe
 	}
 }
 </script>
