@@ -1,6 +1,6 @@
 <template>
 	<div id="landingshow">
-		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.jpg">
+		<img id="leonhard" src="../assets/imgs/leo2_zoom_normal.jpg" alt="Picture of Leonhard Tissen">
 		<div id="intro">
 			<ColorTitle/>
 
