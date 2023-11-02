@@ -4,13 +4,20 @@
 
 		<h1>Thank you for the visit!</h1>
 		<p>Be sure to follow me if you'd like to hear more.</p>
+		<SocialIcons/>
+
+		<span id="copyright">Copyright &copy; 2023 - Leonhard Tissen</span>
 	</div>
 </template>
   
 <script lang="ts">
+import SocialIcons from './SocialIcons.vue';
+
 export default {
 	name: 'FooterContainer',
-	components: {}
+	components: {
+		SocialIcons
+	}
 }
 </script>
 	
@@ -20,6 +27,7 @@ export default {
 	height: 400px;
 	margin-inline: 30px;
 	position: relative;
+	padding: 60px;
 }
 .footerbg {
 	height: 400px;
@@ -34,15 +42,19 @@ export default {
 }
 h1 {
 	margin: 0;
-	padding-top: 100px;
-	padding-left: 60px;
+	padding-top: 40px;
 	color: var(--main-hot);
 }
 p {
 	font-size: 20px;
 	margin: 0;
-	padding-top: 40px;
-	padding-left: 60px;
+	padding-block: 40px;
+}
+#copyright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
 }
 </style>
   

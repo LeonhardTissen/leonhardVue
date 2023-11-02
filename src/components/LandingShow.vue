@@ -6,14 +6,7 @@
 
 			<p>Professional <span>web developer</span> with 7 years of experience</p>
 
-			<div id="socialicons">
-				<SocialIcon icon="github" alt="GitHub" url="//github.com/WarzeEgg"/>
-				<SocialIcon icon="gitlab" alt="GitLab" url="//gitlab.com/WarzeEgg"/>
-				<SocialIcon icon="linkedin" alt="LinkedIn" url="//www.linkedin.com/in/leonhard-tissen/"/>
-				<SocialIcon icon="x" alt="Twitter / X" url="//twitter.com/leonhard_tissen"/>
-				<SocialIcon icon="website" alt="Warze.org" url="//warze.org"/>
-				<SocialIcon icon="email" alt="E-mail" url="mailto:contact@warze.org"/>
-			</div>
+			<SocialIcons/>
 		</div>
 		<div id="bg"></div>
 	</div>
@@ -21,13 +14,13 @@
   
 <script lang="ts">
 import ColorTitle from './ColorTitle.vue';
-import SocialIcon from './SocialIcon.vue';
+import SocialIcons from './SocialIcons.vue';
 
 export default {
     name: 'LandingShow',
     components: {
 		ColorTitle,
-		SocialIcon
+		SocialIcons
 	}
 }
 </script>
@@ -72,19 +65,6 @@ p {
 }
 span {
 	color: var(--main-hot);
-}
-#socialicons {
-	display: flex;
-	gap: 16px;
-	margin-block: 4px;
-}
-.socialicon {
-	width: 40px;
-	transition: filter 0.1s linear, transform 0.12s ease-out;
-}
-.socialicon:hover {
-	filter: sepia(1) saturate(10) hue-rotate(60deg);
-	transform: scale(1.2);
 }
 </style>
   
