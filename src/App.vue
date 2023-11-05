@@ -52,6 +52,7 @@ body {
 	color: var(--main-text);
 	background-color: var(--main);
 	margin: 0;
+	font-weight: 600;
 }
 #app {
 	font-family: Geist, Helvetica, Arial, sans-serif;
