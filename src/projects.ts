@@ -201,5 +201,23 @@ export const projectDatabase: Array<Project> = [
         <h3>Speedrun timer</h3>
         Challenge your friends by daring them to get a faster time than you in a particular game mode.
         `
-    }
+    },
+    {
+        name: 'Discord Emoji Status',
+        link: 'https://discordstatus.warze.org',
+        image: 'discordemojistatus.jpg',
+        color: '#26292D',
+        readmore: 'Features',
+        tags: ['VueJS', 'HTML5', 'TypeScript', 'PostCSS', 'TailwindCSS', 'Netlify', 'Web Development', 'JavaScript', 'Webpack', 'CSS'],
+        description: 'The tool for discord customization.',
+        content: `
+        <h3>Customize your profile</h3>
+        Make your discord profile pop using emojis by pasting a pixel of any kind. This tool provides an intuitive interface
+        to create, share and experiment. Use it in your about me, your status or just in any chat where emojis are supported.
+        
+        <h3>Popular on Reddit</h3>
+        The tool initially blew up on Reddit in 2021 but I decided to rewrite it in under 24 hours using modern web technologies
+        and an overhauled user interface. The reception was immensely positive.
+        `
+    },
 ];
