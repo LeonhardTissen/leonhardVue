@@ -42,7 +42,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://poki.com/en/g/jelly-venture',
         image: 'jellyventure.jpg',
         color: '#33FF00',
-        tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design', 'JavaScript', 'PixiJS', 'Game Development'],
+        tags: ['Featured', 'Game Design', 'Level Design', 'Graphic Design', 'JavaScript', 'PixiJS', 'Game Development', 'Netlify'],
         description: 'The fun platforming game in collaboration with the YouTuber Jelly.',
         content: `
             <h3>Level Design</h3>
@@ -90,7 +90,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://kubipets.netlify.app',
         image: 'kubipets.jpg',
         color: '#4D88FC',
-        tags: ['Featured', 'Graphic Design', 'Game Design', 'ThreeJS', 'CSS', 'JavaScript', 'HowlerJS', 'Python', 'Webpack'],
+        tags: ['Featured', 'Graphic Design', 'Game Design', 'ThreeJS', 'CSS', 'JavaScript', 'HowlerJS', 'Python', 'Webpack', 'Netlify'],
         description: 'The addicting game about unboxing pets and merging them.',
         readmore: 'Features',
         content: `
@@ -113,7 +113,7 @@ export const projectDatabase: Array<Project> = [
         link: 'https://serpentarioeducativo.netlify.app/',
         image: 'serpentarioeducativo.jpg',
         color: '#74B040',
-        tags: ['Graphic Design', 'Web Design', 'CSS3', 'JavaScript', 'Python', 'Web Design', 'HTML5'],
+        tags: ['Graphic Design', 'Web Design', 'CSS3', 'JavaScript', 'Python', 'Web Design', 'HTML5', 'Netlify'],
         description: 'The argentinian wildlife rescue center dedicated to conservation and environmental education.',
         content: `
         <h3>Website</h3>
@@ -184,6 +184,22 @@ export const projectDatabase: Array<Project> = [
 
         <h3>Customization</h3>
         Users can customize various aspects of games such as cards, colors and chips.
+        `
+    },
+    {
+        name: 'Flag Quiz',
+        link: 'https://flagquiz.warze.org',
+        image: 'flagquiz.jpg',
+        color: '#FEF08A',
+        readmore: 'Features',
+        tags: ['VueJS', 'HTML5', 'TypeScript', 'PostCSS', 'TailwindCSS', 'Netlify', 'Web Development', 'JavaScript', 'Webpack', 'CSS'],
+        description: 'The fast paced flag quiz.',
+        content: `
+        <h3>For all types of players</h3>
+        Various difficulties and game modes to intuitively learn flags and their origins.
+
+        <h3>Speedrun timer</h3>
+        Challenge your friends by daring them to get a faster time than you in a particular game mode.
         `
     }
 ];
