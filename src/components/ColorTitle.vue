@@ -64,6 +64,15 @@ span {
 @media screen and (max-width: 640px) {
 	h1 {
 		font-size: 54px;
+		text-align: center;
+	}
+	h1 span {
+		animation: none;
+	}
+}
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 48px;
 	}
 }
 </style>

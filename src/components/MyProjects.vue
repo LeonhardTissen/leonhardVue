@@ -124,6 +124,9 @@ export default {
 	.content:hover::after {
 		background-image: linear-gradient(0deg, #FFF8, transparent);
 	}
+	.content:hover::before {
+		background-color: #333;
+	}
 	.content.shown {
 		max-height: unset;
 		cursor: default;
@@ -144,6 +147,11 @@ export default {
 	}
 	.description::before {
 		content: '➤ ';
+	}
+	@media screen and (max-width: 480px) {
+		.tags {
+			display: none;
+		}
 	}
 </style>
   

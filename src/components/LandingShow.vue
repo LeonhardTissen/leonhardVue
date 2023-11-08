@@ -72,9 +72,9 @@ span {
 		align-items: center;
 	}
 	#leonhard {
-		width: 60vw;
-		height: 60vw;
-		margin-bottom: 80px;
+		width: 40vw;
+		height: 40vw;
+		margin-bottom: 30px;
 	}
 }
 </style>

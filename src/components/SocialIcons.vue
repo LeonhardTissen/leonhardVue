@@ -29,6 +29,7 @@ export default {
 	display: flex;
 	gap: 16px;
 	margin-block: 4px;
+	flex-wrap: wrap;
 }
 .socialicon {
 	width: 40px;

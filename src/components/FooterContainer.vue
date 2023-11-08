@@ -59,6 +59,10 @@ p {
 @media screen and (max-width: 640px) {
 	.footer {
 		padding: 20px;
+		padding-bottom: 200px;
+	}
+	#copyright {
+		padding: 0;
 	}
 }
 </style>
