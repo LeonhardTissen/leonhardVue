@@ -76,6 +76,11 @@ span {
 		height: 40vw;
 		margin-bottom: 30px;
 	}
+	p {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 }
 </style>
   

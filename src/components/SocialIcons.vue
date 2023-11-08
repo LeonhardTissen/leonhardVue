@@ -42,6 +42,7 @@ export default {
 @media screen and (max-width: 640px) {
 	#socialicons {
 		gap: 8px;
+		justify-content: center;
 	}
 }
 </style>
