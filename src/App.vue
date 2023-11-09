@@ -9,6 +9,9 @@
 	<div class="page selected" id="projects">
 		<MyProjects/>
 	</div>
+	<div class="page" id="certificates">
+		<MyCertificates/>
+	</div>
 	<div class="page selected" id="contact">
 		<ContactMe/>
 	</div>
@@ -22,6 +25,7 @@ import LandingShow from './components/LandingShow.vue';
 import MyGoals from './components/MyGoals.vue';
 import MyProjects from './components/MyProjects.vue';
 import ContactMe from './components/ContactMe.vue';
+import MyCertificates from './components/MyCertificates.vue';
 
 export default {
 	name: 'App',
@@ -31,7 +35,8 @@ export default {
 		MyGoals,
 		MyProjects,
 		FooterContainer,
-		ContactMe
+		ContactMe,
+		MyCertificates
 	}
 }
 </script>
