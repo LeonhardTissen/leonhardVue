@@ -29,24 +29,23 @@ export default {
 
 <style scoped>
     a {
-        color: white;
         text-decoration: none;
     }
 
     #container {
+        max-width: 1200px;
         min-height: 100px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-width: 1400px;
         margin: 120px auto;
-        gap: 24px;
+        gap: 40px;
     }
     
     .certificate {
-        width: min(80vw, 400px);
-        flex-basis: 33%;
-        display: flex;
+        width: min(80vw, 500px);
+        flex: 0 0 50%;
+        display: inline-flex;
         align-items: start;
         gap: 8px;
         overflow: hidden;
@@ -55,6 +54,8 @@ export default {
     .title {
         margin: 0;
         font-size: 32px;
+        margin-bottom: 24px;
+        font-weight: 250;
     }
 
     .skills {
@@ -63,9 +64,11 @@ export default {
     }
     .skill {
         background-color: #232323;
-        padding: 4px;
+        padding: 6px 10px;
         margin: 2px;
-        border-radius: 12px;
+        border-radius: 18px;
+        color: white;
+        box-shadow: inset 0 0 4px #040404;
     }
 
     @media screen and (max-width: 500px) {
