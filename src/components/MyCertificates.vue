@@ -2,7 +2,7 @@
     <div id="container">
         <div v-for="(certificate, index) in certificates" class="project" :key="index">
             <a class="certificate" :href="certificate.link">
-                <img :src="'/icons/' + certificate.company + '.svg'">
+                <img :src="'/icons/companies/' + certificate.company.toLowerCase() + '.svg'">
                 <div class="info">
                     <h1 class="title">{{ certificate.name }}</h1>
                     
