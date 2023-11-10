@@ -48,4 +48,10 @@ export const certificates: Array<Certificate> = [
         skills: ['CSS', 'HTML', 'Responsive Web Design'],
         company: 'LinkedIn',
     },
+    {
+        name: 'Building a Video Chat App with Vue.js 2 and Firebase',
+        link: 'https://www.linkedin.com/learning/certificates/256b591dff871e7553c6f440095d18b19a8a362e7e8ef05f0cc255ea88d9d6b5',
+        skills: ['Vue.JS', 'Firebase', 'WebRTC'],
+        company: 'LinkedIn',
+    },
 ]
