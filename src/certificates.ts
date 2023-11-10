@@ -41,5 +41,11 @@ export const certificates: Array<Certificate> = [
         link: 'https://www.linkedin.com/learning/certificates/ab9f5bb3a65d8311a6ac1c71125096de458da8fb4d39cb995c3ae0d93a0028d4',
         skills: ['CSS', 'HTML'],
         company: 'LinkedIn',
-    }
+    },
+    {
+        name: 'Creating a Responsive Web Design: Advanced Techniques',
+        link: 'https://www.linkedin.com/learning/certificates/b6fcc10aa0c094ba86db6b7aa35305d6609acaa4a6cf18c8abd3153e9bb9b357',
+        skills: ['CSS', 'HTML', 'Responsive Web Design'],
+        company: 'LinkedIn',
+    },
 ]
