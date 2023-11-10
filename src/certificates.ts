@@ -36,4 +36,10 @@ export const certificates: Array<Certificate> = [
         skills: ['JavaScript', 'React.js'],
         company: 'LinkedIn',
     },
+    {
+        name: 'Emmet: Fast and Efficient Web Coding',
+        link: 'https://www.linkedin.com/learning/certificates/ab9f5bb3a65d8311a6ac1c71125096de458da8fb4d39cb995c3ae0d93a0028d4',
+        skills: ['CSS', 'HTML'],
+        company: 'LinkedIn',
+    }
 ]
