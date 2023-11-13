@@ -1,7 +1,7 @@
 <template>
 	<div id="socialicons">
-		<SocialIcon icon="github" alt="GitHub" url="//github.com/WarzeEgg"/>
-		<SocialIcon icon="gitlab" alt="GitLab" url="//gitlab.com/WarzeEgg"/>
+		<SocialIcon icon="github" alt="GitHub" url="//github.com/LeonhardTissen"/>
+		<SocialIcon icon="gitlab" alt="GitLab" url="//gitlab.com/LeonhardTissen"/>
 		<SocialIcon icon="linkedin" alt="LinkedIn" url="//www.linkedin.com/in/leonhard-tissen/"/>
 		<SocialIcon icon="x" alt="Twitter / X" url="//twitter.com/leonhard_tissen"/>
 		<SocialIcon icon="mastodon" alt="Mastodon" url="//mastodon.social/@leonhardtissen"/>
