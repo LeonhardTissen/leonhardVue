@@ -4,6 +4,7 @@
 		<SocialIcon icon="gitlab" alt="GitLab" url="//gitlab.com/WarzeEgg"/>
 		<SocialIcon icon="linkedin" alt="LinkedIn" url="//www.linkedin.com/in/leonhard-tissen/"/>
 		<SocialIcon icon="x" alt="Twitter / X" url="//twitter.com/leonhard_tissen"/>
+		<SocialIcon icon="mastodon" alt="Mastodon" url="//mastodon.social/@leonhardtissen"/>
 		<SocialIcon icon="website" alt="Warze.org" url="//warze.org"/>
 		<SocialIcon icon="email" alt="E-mail" url="mailto:contact@warze.org"/>
 	</div>
