@@ -169,7 +169,7 @@ export const projectDatabase: Array<Project> = [
     },
     {
         name: 'Casino Bot',
-        link: 'https://github.com/WarzeEgg/warzeCasinoBot',
+        link: 'https://github.com/LeonhardTissen/warzeCasinoBot',
         image: 'casinobot.png',
         color: '#4C41CB',
         readmore: 'Features',
