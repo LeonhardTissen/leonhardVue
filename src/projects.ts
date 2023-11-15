@@ -187,6 +187,26 @@ export const projectDatabase: Array<Project> = [
         `
     },
     {
+        name: 'Lights on!',
+        link: 'https://lightson.warze.org',
+        image: 'lightson.jpg',
+        color: '#111111',
+        readmore: 'About',
+        tags: ['Graphic Design', 'Game Design', 'TypeScript', 'PixiJS', 'Netlify'],
+        description: 'The puzzle game where you need to turn all the lights on.',
+        content: `
+        A remake of a popular puzzle game with more fleshed out puzzle design.
+        Can you solve all 14 levels? Turn all the lights on, it shouldn't be that hard... right?
+        With each click, adjacent lamps toggle and you have to fiddle around to find the right pattern.
+        
+        <br>
+        <br>
+        In the bottom left, you can see your own clicks and the ideal amount of clicks needed to solve the level.
+        Don't worry, you can keep clicking beyond the perfect score without being punished and your progress
+        is saved even if you close the tab.
+        `
+    },
+    {
         name: 'Flag Quiz',
         link: 'https://flagquiz.warze.org',
         image: 'flagquiz.jpg',
