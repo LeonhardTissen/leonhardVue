@@ -15,6 +15,11 @@ export default {
 </script>
   
 <style scoped>
+	.social {
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
 	.socialicon {
 		width: 40px;
 		transition: filter 0.1s linear, transform 0.12s ease-out;
