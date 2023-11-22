@@ -124,21 +124,16 @@ export const projectDatabase: Array<Project> = [
     },
     {
         name: 'WartOS',
-        link: 'https://warze.org/',
+        link: 'https://wartos.warze.org/',
         image: 'warzeorg.jpg',
         color: '#FF2323',
         readmore: 'Features',
-        tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management', 'Flask', 'Python', 'Jinja', 'OAuth', 'JavaScript'],
+        tags: ['Featured', 'Graphic Design', 'Web Design', 'Backend Development', 'Server Management', 'Flask', 'Python', 'Jinja', 'OAuth', 'JavaScript', 'VueJS', 'Webpack', 'Netlify', 'TypeScript', 'CSS3'],
         description: 'The web-based operating system.',
         content: `
         <h3>Desktop Experience</h3>
         The place that simply lists out all my projects would be too boring. Instead I built my own operating system-like
-        website where you can open my projects as programs. Clippy will greet you and say a few things about certain projects.
-        <a href="https://warze.org/wartos/customize">The desktop is even customizable</a>,
-        from the background and colors all the way to the helper and window appearance.
-        <a href="https://warze.org/wartos/iconeditor">Remove programs and add your own</a>,
-        they are saved in your browser and can even be loaded to the cloud. An internet homepage that can be tailored
-        to be whatever you want!
+        website where you can open my projects as programs. Customize your wallpaper or upload your own!
         `
     },
     {
