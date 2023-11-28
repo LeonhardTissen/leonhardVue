@@ -187,7 +187,7 @@ export const projectDatabase: Array<Project> = [
         image: 'lightson.jpg',
         color: '#111111',
         readmore: 'About',
-        tags: ['Graphic Design', 'Game Design', 'TypeScript', 'PixiJS', 'Netlify'],
+        tags: ['Graphic Design', 'Game Design', 'TypeScript', 'PixiJS', 'Netlify', 'HowlerJS', 'Level Design'],
         description: 'The puzzle game where you need to turn all the lights on.',
         content: `
         A remake of a popular puzzle game with more fleshed out puzzle design.
