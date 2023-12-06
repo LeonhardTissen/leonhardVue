@@ -5,10 +5,17 @@
 				<img class="banner" :src="'/works/' + project.image" :alt="project.name" loading="lazy">
 				{{ project.name }}
 			</a>
-			<p class="description">{{ project.description }}</p>
+
+			<a
+				v-if="project.repository !== undefined"
+				:href="`https://github.com/LeonhardTissen/${project.repository}`"
+			>View Repository</a>
+
+			<p class="description" v-html="project.description"></p>
+
 			<div class="content" v-html="project.content" @click="handleClick"></div>
 			<div class="tags">
-				<div v-for="(tag, tagindex) in project.tags" :key="tagindex" class="tag">{{ tag }}</div>
+				<div v-for="(tag, tagindex) in project.tags" :key="tagindex" class="tag" v-html="tag"></div>
 			</div>
 			<div class="bg"></div>
 		</div>

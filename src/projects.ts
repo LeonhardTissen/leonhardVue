@@ -7,6 +7,7 @@ interface Project {
     description: string,
     content: string,
     readmore?: string,
+    repository?: string,
 }
 
 export const projectDatabase: Array<Project> = [
@@ -125,6 +126,7 @@ export const projectDatabase: Array<Project> = [
     {
         name: 'WartOS',
         link: 'https://wartos.warze.org/',
+        repository: 'wartOSVue',
         image: 'warzeorg.jpg',
         color: '#FF2323',
         readmore: 'Features',
@@ -168,6 +170,7 @@ export const projectDatabase: Array<Project> = [
         image: 'casinobot.png',
         color: '#4C41CB',
         readmore: 'Features',
+        repository: 'warzeCasinoBot',
         tags: ['Graphic Design', 'Game Design', 'Backend Development', 'Server Management', 'JavaScript', 'NodeJS', 'SQLite'],
         description: 'The open source Discord bot with various games and economy aspects.',
         content: `
@@ -189,6 +192,7 @@ export const projectDatabase: Array<Project> = [
         readmore: 'About',
         tags: ['Graphic Design', 'Game Design', 'TypeScript', 'PixiJS', 'Netlify', 'HowlerJS', 'Level Design'],
         description: 'The puzzle game where you need to turn all the lights on.',
+        repository: 'lightsOn',
         content: `
         A remake of a popular puzzle game with more fleshed out puzzle design.
         Can you solve all 14 levels? Turn all the lights on, it shouldn't be that hard... right?
@@ -209,6 +213,7 @@ export const projectDatabase: Array<Project> = [
         readmore: 'Features',
         tags: ['VueJS', 'HTML5', 'TypeScript', 'PostCSS', 'TailwindCSS', 'Netlify', 'Web Development', 'JavaScript', 'Webpack', 'CSS'],
         description: 'The fast paced flag quiz.',
+        repository: 'flagQuiz',
         content: `
         <h3>For all types of players</h3>
         Various difficulties and game modes to intuitively learn flags and their origins.
@@ -225,6 +230,7 @@ export const projectDatabase: Array<Project> = [
         readmore: 'Features',
         tags: ['VueJS', 'HTML5', 'TypeScript', 'PostCSS', 'TailwindCSS', 'Netlify', 'Web Development', 'JavaScript', 'Webpack', 'CSS'],
         description: 'The tool for discord customization.',
+        repository: 'discordEmojiStats',
         content: `
         <h3>Customize your profile</h3>
         Make your discord profile pop using emojis by pasting a pixel of any kind. This tool provides an intuitive interface
