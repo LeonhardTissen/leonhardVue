@@ -241,4 +241,25 @@ export const projectDatabase: Array<Project> = [
         and an overhauled user interface. The reception was immensely positive.
         `
     },
+	{
+		name: 'Ball 2 Remake',
+		link: 'https://ball2.warze.org',
+		image: 'ball2.jpg',
+		color: '#00B4E6',
+		readmore: 'Features',
+		tags: ['Game Design', 'Level Design', 'Graphic Design', 'JavaScript', 'Game Development', 'Netlify', 'HowlerJS', 'HTML5', 'CSS3', 'SQL', 'Python', 'Web Development', 'Backend Development', 'Server Management'],
+		description: 'A pixel-perfect remake of a really old game from ~2000',
+		repository: 'ball2Remake',
+		content: `
+		<h3>Classic Gameplay</h3>
+		Control the ball with the arrow keys and collect all the diamonds to advance to the next level.
+		Avoid spikes and monsters and use the environment to your advantage.
+
+		<h3>Level Editor</h3>
+		Build your own levels and share them with your friends to challenge them.
+
+		<h3>Added Features</h3>
+		Added a lot of new features to the game that weren't in the original, such as a level browser and new game elements,
+		`
+	}
 ];
