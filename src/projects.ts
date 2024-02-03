@@ -185,7 +185,7 @@ export const projectDatabase: Array<Project> = [
         `
     },
     {
-        name: 'Lights on!',
+        name: 'Lights On!',
         link: 'https://lightson.warze.org',
         image: 'lightson.jpg',
         color: '#111111',
@@ -206,7 +206,7 @@ export const projectDatabase: Array<Project> = [
         `
     },
 	{
-        name: 'Lights on 2!',
+        name: 'Lights On! 2',
         link: 'https://lightson2.warze.org',
         image: 'lightson2.jpg',
         color: '#111111',
