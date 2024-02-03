@@ -205,6 +205,24 @@ export const projectDatabase: Array<Project> = [
         is saved even if you close the tab.
         `
     },
+	{
+        name: 'Lights on 2!',
+        link: 'https://lightson2.warze.org',
+        image: 'lightson2.jpg',
+        color: '#111111',
+        readmore: 'About',
+        tags: ['Graphic Design', 'Game Design', 'TypeScript', 'PixiJS', 'Netlify', 'HowlerJS', 'Level Design'],
+        description: 'The puzzle game where you need to illuminate the room.',
+        repository: 'lightsOn2',
+        content: `
+        Can you beat all 20 levels? Some light bulbs are stronger than others and you need to fully understand them in order to master the puzzles.
+		Some levels have multiple solutions, others can take a bit to get right.
+		<br>
+		The game has slick animations for UI as well as breathtaking sound design that will give you chills.
+		<br>
+		Your progress is saved, so you can always continue where you left off.
+        `
+    },
     {
         name: 'Flag Quiz',
         link: 'https://flagquiz.warze.org',
